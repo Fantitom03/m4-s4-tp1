@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+    --color-citadel-blue: #00eeff;
+    --color-citadel-purple: #6b46c1;
+    --color-dark-bg: #0f172a;
+}
+
+
+
+
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+@keyframes reverse-spin {
+    to { transform: rotate(-360deg); }
+  }
+  .animate-spin { animation: spin 1s linear infinite; }
+  .reverse-spin { animation: reverse-spin 1s linear infinite; }
