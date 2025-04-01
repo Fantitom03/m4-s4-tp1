@@ -1,6 +1,5 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import sticker from '../assets/sticker.png';
 
 const Header = () => {
     return (
@@ -26,7 +25,7 @@ const Header = () => {
             </div>
 
             <img 
-              src={sticker} 
+              src="/sticker.png"
               alt="Logo de la Ciudadela" 
               className="h-30 object-contain hover:scale-105 cursor-pointer transition-transform duration-300 drop-shadow-lg hover:drop-shadow-xl"
             />
