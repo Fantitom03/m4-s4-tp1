@@ -14,7 +14,7 @@ function App() {
       style={{
         backgroundImage: `
           linear-gradient(to right, rgba(9, 9, 121, 0.85) 50%, rgba(74, 20, 140, 0.85) 90%),
-          url('/src/assets/fondo.jpg')
+          url('/fondo.jpg')
         `,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
