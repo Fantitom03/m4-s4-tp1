@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: './',
+  base: '/m4-s04-tp1/',
 })
